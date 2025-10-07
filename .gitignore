@@ -1,0 +1,11 @@
+__pycache__/
+*.wav
+*.webm
+*.pkl
+*.log
+audfprint/__pycache__/
+incoming_chunks/
+temp_chunk.wav
+
+frontend/
+server.py
