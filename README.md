@@ -33,16 +33,6 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Make sure the fingerprint database exists
-
-fpdb.pklz is already included - it contains fingerprints for MP3s located in targets/
-
-
-If you add new MP3s, regenerate fingerprints by running:
-```bash
-python -m audfprint.main hashdir targets --dbase fpdb.pklz
-```
-
 
 Start the real-time listener
 ```bash
@@ -52,6 +42,8 @@ python live_listener.py
 You should see logs such as:
 
 Starting real-time listener (Ctrl+C to stop)...
+
+please wait 1-2 seconds
 
 
 
