@@ -33,8 +33,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-
-Start the real-time listener
+Please make sure your microphone is working and start the real-time listener
 ```bash
 python live_listener.py
 ```
